@@ -1,6 +1,36 @@
+/* how to do style by element */
 h1 {
   color: yellowgreen;
 }
 h3 {
   color: purple;
+}
+p {
+  color: royalblue;
+  font-size: 2rem;
+  font: italic;
+}
+a {
+  color: red;
+}
+/* how to do style by id */
+#p1,
+#p3 {
+  color: red;
+}
+#p2,
+#p4 {
+  color: purple;
+}
+/* how to do style by class */
+.cool {
+  color: red;
+  font-size: x-small;
+  background-color: blue;
+}
+.hot {
+  color: blue;
+  font-size: x-large;
+  background-color: red;
+  text-transform: capitalize;
 }
