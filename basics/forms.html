@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <body><!-- we won't be collecting this form this is just html -->
+    <form action="" >
+        <label for="name">first name: </label>
+        <input type="text" name="theNameOfField" id="toAccessThisLater">
+        <br>
+        <label for="name" >last name: </label>
+        <!-- we can set value as the default field value so the user needs to delet it first -->
+        <input type="text"  value = "Doe"name="theNameOfField" id="toAccessThisLater">
+        <br>
+        <!-- the email type checks for a valid email adress with @ and then a .  -->
+        <input type="email" name="email" placeholder = "email"id="data">
+        <br>
+        <input type="password" name="password" placeholder = "password" id="">
+        <br>
+        
+        <label for=""> Description:</label>
+        <textarea name="description" id="desc"cols="30" rows="10"></textarea>
+        <!-- we have to choose only one of the radion buttons and the name values should match -->
+        <!-- IMPORTANT values are what we access with javeScript so value brrrrrr will be accessible
+             as a variable of sourts -->
+        <br>
+        <label for="rad">radio button</label>
+        <input type="radio" name="rad" id="radi" value="Brrrrrr">Brrrrrr
+        <input type="radio" name="rad" id="rady" value="grrrrrr">grrrrrr
+        <br>
+        
+        <!-- checkboxes can be unset and you can choose more than one -->
+        <label for="rad">checkbox</label>
+        <input type="checkbox" name="rad" id="rady" value="grrrrrr">grrrrrr
+        
+        <input type="checkbox" name="rad" id="radi" value="Brrrrrr">Brrrrrr
+
+
+        
+        <br>
+        <br>
+        <select name="brgr" id="select"> 
+
+            <option value="grrrr">Grrrr</option>
+            <option value="brrrr">Brrrr</option>
+        </select>
+        <br>
+            
+        
+        <br>
+        <button type="reset">Reset to empty</button>
+        <br><!-- these both work as submit button -->
+        <input type="submit">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
