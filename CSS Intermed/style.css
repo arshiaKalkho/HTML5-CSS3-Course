@@ -1,0 +1,32 @@
+/* better way to use colors RGB*/
+/* short for red green blue each value is from 0 to 255, 000 is black and 255 255 255 is white */
+#second{
+  color: rgb(153, 245, 67);
+  background-color: chocolate;
+}
+#fourth{
+  color:red;
+  background:rgb(59, 153, 59);
+}
+body{
+  background: rgb(122, 6, 143);
+}
+/* RGBA includes transparency/opacity */
+
+#first {
+  background: rgba(8, 173, 139, 0.5);
+}
+
+#third{
+  background: rgba(27, 2, 2, 0.75);
+}
+
+body {
+  background: rgba(100, 70, 255, 0.35);
+}
+
+
+
+
+ 
+

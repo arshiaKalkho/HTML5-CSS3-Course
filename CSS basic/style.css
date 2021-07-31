@@ -34,3 +34,24 @@ a {
   background-color: red;
   text-transform: capitalize;
 }
+/* everything in a dive will be upper case  */
+div {
+  text-transform: capitalize;
+}
+span {
+  color : pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

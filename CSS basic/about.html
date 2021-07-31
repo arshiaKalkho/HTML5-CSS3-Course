@@ -32,7 +32,7 @@
     <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, possimus.</p>
     <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, possimus.</p>
     <p id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, possimus.</p>
-    <!-- inline style example this will override the css file -->
+    <!-- inline style example this will override the css file but only for that element-->
     <p id="p4" style="color: chartreuse;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, possimus.</p>
 
     <h1 style="color: red ">\\\\\Class test below//////</h1>
@@ -43,5 +43,14 @@
     <p class="cool">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, vel.</p>
     <p class="hot">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, vel.</p>
     <p class="cool">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, vel.</p>
+
+    <!-- we can do the same thing but instead of classing them one by one we can use dive or span and modify that with css -->
+    <div>
+        <p class="cool">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, vel.</p>
+        <p class="hot">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, vel.</p>
+        <p class="cool">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, vel.</p>
+        <p class="hot">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, vel.</p>
+        <p class="cool">Lorem ipsum dolor sit amet <span>consectetur</span> adipisicing elit. Voluptatem, vel.</p>
+    </div>
 </body>
 </html>
