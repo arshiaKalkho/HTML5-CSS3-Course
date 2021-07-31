@@ -1,0 +1,72 @@
+/* better way to use colors RGB*/
+/* we could also use hex in the shape of hexadecimal */
+/* short for red green blue each value is from 0 to 255, 000 is black and 255 255 255 is white */
+#second{
+  color: rgb(153, 245, 67);
+  background-color: chocolate;
+}
+#fourth{
+  color:red;
+  background:rgb(59, 153, 59);
+}
+body{
+  background: rgb(122, 6, 143);
+}
+/* RGBA includes transparency/opacity */
+
+#first {
+  background: rgba(8, 173, 139, 0.5);
+}
+
+#third{
+  background: #1b0202bf;/* using hex for the background*/
+}
+
+body {
+  background: #41EAd4; /* using hex for the background*/
+}
+
+/* for the index html  */
+
+h1{
+  font-size: 100px; /*short for pixels*/
+  width: 250px; /*see the royalblue part that is the width*/
+  height: 400px;/*this is not reletive size*/
+  background: royalblue;
+}
+
+.inner-div{
+  height: 2em;/*em is default browser style relative to the DEFAULT font size, 16px. so in this case 32 px*/
+  width: 3rem;/*this is reletive size and changes if user changes the browser text size*/
+  background-color:slateblue;
+}
+
+.outer-div{
+  height: 50%;/*relative to the parent element*/
+  width: 50%;/*this is reletive size*/
+  background-color:red;
+}
+
+/* vh and vw, short for view high and view width are relative to the window  */
+
+ h2{
+   background-color: red;
+   height: 20vh;/*now they will resize if you change the browser window size*/
+   
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
