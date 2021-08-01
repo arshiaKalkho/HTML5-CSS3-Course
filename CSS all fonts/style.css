@@ -1,0 +1,66 @@
+
+
+/* play with the values, have fun see what how you can modify the page */
+
+*{
+  margin:0;
+  background-color: pink;
+}
+
+
+.navbar {
+  color: rgb(24, 172, 185);
+  height: calc(20vh - 150px);/* to calculate something any math would do add space before and after "-", "+"... */
+  background-color: rgb(197, 118, 43);
+  font-size: 2rem;
+  text-align: center;
+}
+
+body{
+  font-family: cursive;/*google fonts also has many fonts for us to use*/
+  font-weight: bolder; /*only effects the first paragraph since everything else has imported font and styles*/
+}
+
+
+h1{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;/*this is called FONT-STACK if the first one isn't available on user browser,the second one will be chosen if thats not availale the third and so on*/
+  font-style:italic;
+
+}
+.google{/*using link to import font*/
+  font-family: 'Style Script', cursive;
+}
+.googleimport{/*using import url to import font*/
+  font-family: 'Permanent Marker', cursive;
+}
+
+.alignCenter{
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+.alignRight{
+  font-family: 'Permanent Marker', cursive;
+  text-align: right;
+}
+p {
+  text-indent: 20px; /*indents the first word of the paragraph by 20pxls*/
+  line-height: 1rem; /*distance between each line*/
+  letter-spacing: 1px;
+  word-spacing:1px;
+  text-transform: capitalize;/*capitilizes the first letter of each word*/
+}
+.cross{
+  text-decoration: line-through;
+  text-decoration-style: solid;/*these two past lines are relevant and work together, the second one is the type of the crossing line and can be changed to wavy for example*/
+}
+#overline{
+  text-decoration: overline;
+  text-decoration-style: wavy;
+  line-height: 2rem;
+}
+#underline{
+  text-decoration: underline;
+  text-decoration-style:solid;
+  line-height: 1rem;
+}
