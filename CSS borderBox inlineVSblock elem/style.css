@@ -1,0 +1,53 @@
+
+/* inline elemenet's up and down margins are not respected by the browser we need them to be block element for them to have up and down margin */
+html{
+background-color: #000;
+
+}
+p{
+  color: white;
+  text-transform: capitalize;
+}
+*{
+  margin:0;
+  padding:0;
+}
+
+ul li{
+  list-style-type:none;
+}
+ul li a{
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background:rgb(14, 59, 6);
+  color:orange;
+  display: block;
+  
+  
+  
+
+}
+.box1,.box2,.box3{
+  width:200px;
+  height: 200px;
+  color: white;
+}
+
+
+.box1{
+ background: red; 
+ box-sizing: border-box;
+ 
+ opacity: 0.2;
+}
+.box2{
+  background:  blue; 
+  box-sizing: border-box;
+  padding:20px;
+ }
+ .box3{
+  background: green; 
+  padding:20px;
+ }
+  
