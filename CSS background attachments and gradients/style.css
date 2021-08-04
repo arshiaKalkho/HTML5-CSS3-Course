@@ -1,0 +1,36 @@
+div{
+    min-height: 100vh;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* small images will be repeated by default */
+.bigimg{
+    height: 500px;
+    background: url('./pexels-ivan-siarbolin-3787839.jpg');
+
+    background-size: cover;/*important*/
+    /* background-position: center; */
+}
+.smallimg{
+    background: url('../img/dogImage.jpg');
+}
+.folderimg{
+    background: url('./pexels-alex-azabache-3727262.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;/*this will create a paralax effect*/
+
+
+    border: 2px solid red;
+}
+.gradiant{
+    background: linear-gradient(red,green)
+}
+/* default direction would be top to the bottom for the gradient  */
+.gradiant2{
+    background: linear-gradient(150deg ,red,green,pink,purple,black)
+}
