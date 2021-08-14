@@ -1,0 +1,44 @@
+/* before and after add something "content" to before or after of an element */
+/* while ":" does work the new method css3 includes "::" so use te second one */
+
+
+
+*{
+  border: 0;
+  padding: 0;
+}
+
+.banner{
+  border: 5px solid black;
+  padding: 10px;
+  overflow: hidden;
+}
+div{
+  width: 100vw;
+  margin: 100px auto;
+  background: green;
+}
+img{
+  width: 300px;
+  height:300px;
+  
+}
+p{
+  clear: right;
+  margin: 100px;
+} 
+/* the content is necessary */
+p::before{
+  display: block;
+  background: black;
+  content:"hellow ";
+  font-size: 2rem;
+  color: red;
+}
+p::after{
+  content:'after';
+  font-size: 2rem;
+  color: red;
+  width: 50px;
+  height : 50px;
+}
